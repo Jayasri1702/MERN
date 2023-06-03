@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html><head>
+    <title>HTML Task 8 </title>
+    <style>
+      .container {
+        border: 1px solid #ccc;
+        padding: 20px;
+        width: 500px;
+      }
+      
+      .column {
+        display: inline-block;
+        width: 45%;
+        margin-right: 5%;
+      }
+      table,th,td{
+          border: 1px solid black;
+          padding: 0;
+          margin: 0;
+      }
+      table{
+          
+          border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>USER DETAILS FORM</h2>
+    <div class="container">
+      <form>
+          <table>
+              <tbody><tr>
+                  <th>
+  
+                      <label for="firstname">First Name:</label>
+                      </th><td>
+                          <input type="text" id="firstname" name="firstname" required="">
+  
+                      </td>
+                  
+              </tr>
+              <tr>
+                  <th>
+  
+                      <label for="lastname">Last Name:</label>
+                  </th>
+                  <td>
+                      <input type="text" id="lastname" name="lastname" required="">
+  
+                  </td>
+              </tr>
+              <tr>
+                  <th>
+  
+                      <label for="email">Email:</label>
+                  </th>
+                  <td>
+                      <input type="email" id="email" name="email" required="">
+       
+                  </td>
+              </tr>
+              <tr>
+                  <th>
+                      
+                      <label for="password">Password:</label>
+                  </th>
+                  <td>
+                      <input type="password" id="password" name="password" required="">
+      
+                  </td>
+              </tr>
+              <tr>
+                  <th>
+  
+                      <label for="repassword">Re-enter Password:</label>
+                  </th>
+                  <td>
+                      <input type="password" id="repassword" name="repassword" required="">
+   
+                  </td>
+              </tr>
+              <tr>
+                  <th>
+  
+                      <label for="gender">Gender:</label>
+                  </th>
+                  <td>
+                      <input type="radio" id="male" name="gender" value="male" required="">
+                      <label for="male">Male</label>
+                      <input type="radio" id="female" name="gender" value="female" required="">
+                      <label for="female">Female</label>
+                      <input type="radio" id="other" name="gender" value="other" required="">
+                      <label for="other">Other</label> 
+                  </td>
+              </tr>
+              <tr>
+                  <th>
+                      <label for="phone">Phone Number:</label>
+  
+                  </th>
+                  <td>
+                      <input type="tel" id="phone" name="phone" required="">
+      
+                  </td>
+              </tr>
+              <tr>
+                  <th>
+  
+                      <label for="address">Address:</label>
+                  </th>
+                  <td>
+                      <textarea id="address" name="address" required=""></textarea>
+      
+                  </td>
+              </tr>
+              <tr>
+                  <th>
+  
+                      <label for="state">State:</label>
+                  </th>
+                  <td>
+                      <select id="state" name="state" required="">
+                          <option value="" disabled="" selected="">Select your state</option>
+                          <option value="state1">State 1</option>
+                          <option value="state2">State 2</option>
+                          <option value="state3">State 3</option>
+                        </select>  
+                  </td>
+              </tr>
+              <tr>
+                  <th>
+                      <label for="languages">Languages Known:</label>
+  
+                  </th>
+                  <td>
+                      <input type="checkbox" id="english" name="languages" value="english">
+                      <label for="english">English</label>
+                      <input type="checkbox" id="spanish" name="languages" value="spanish">
+                      <label for="spanish">Spanish</label>
+                      <input type="checkbox" id="french" name="languages" value="french">
+                      <label for="french">French</label>
+                  </td>
+              </tr>
+          </tbody></table>
+        
+      
+        
+        
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  
+  
+  </body></html>
